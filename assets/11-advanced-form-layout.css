@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+  /* -------------------------------------------------------------------------------- */
+body {
+  background: #ececec;
+  font: normal 16px Helvetica, Arial, sans-serif;
+  color: #282828;
+}
+
+form {
+  background: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+fieldset {
+  background: #ececec;
+  margin-bottom: 2px;
+  padding: 1.5rem 2rem;
+  border-left: 4px solid #cccccc;
+}
+
+h1 {
+  font: normal 1.75rem Helvetica, Arial, sans-serif;
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font: bold 1.25rem Helvetica, Arial, sans-serif;
+  padding-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  font: bold 16px Helvetica, Arial, sans-serif;
+  color: #666666;
+  padding-bottom: .62rem
+}
+
+label.checkbox {
+    position: relative;
+    padding: 0 0 1.5rem 1.25rem;
+    font-size: .875rem;
+    font-weight: normal;
+  }
+
+  label.checkbox input {
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+
+.partial {
+   display: inline-block;
+   padding-right: 1.25rem;
+   box-sizing: border-box;
+   vertical-align: top;
+}
+
+
+.third {
+  width: 33.3%;
+}
+
+.half {
+  width: 50%;
+}
+
+.last {
+   padding-right: 0;
+ }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 2.5rem;
+  padding: .31rem .5rem;
+  margin-bottom: 1.5rem;
+  font: normal .875rem Helvetica, Arial, sans-serif;
+  border: 1px solid #0066cc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: auto;
+  max-height: 17.5rem;
+  resize: vertical;
+
+}
+
+input[type="submit"] {
+  padding: .875rem 2rem;
+  font: normal 1rem Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  background: #0066cc;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #5f95cc;
+}
+
+input[name*="name"] {
+  width: 49%;
+}
+
+input[name="last_name"] {
+  margin-left: 2% ;
+}
